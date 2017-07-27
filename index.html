@@ -229,7 +229,7 @@ href="https://www.facebook.com/sabrina.salini.5?ref=bookmarks">Facebook</a></p>
         <td><b>Variables</b></td>
           <td> store specific values within a program </td>
           <td> everything has a certain place that it needs to be. Example: The milk needs to be in the fridge before it goes bad.</td>
-          <td> The equal sign (=) is used to assign values to variables. </td>
+          <td>  </td>
           <td>  </td>
         </tr>
 
@@ -238,7 +238,7 @@ href="https://www.facebook.com/sabrina.salini.5?ref=bookmarks">Facebook</a></p>
           <td><b>Loops</b></td>
           <td> a loop is a sequence of instructions that is continually repeated until a certain condition is reached.   </td>
           <td> workers need a set of instructions to work and continue repeatedly. </td>
-          <td> Repeats a statement or group of statements while a given condition is TRUE.  </td>
+          <td> </td>
           <td>  </td>
         </tr>
 
@@ -247,7 +247,7 @@ href="https://www.facebook.com/sabrina.salini.5?ref=bookmarks">Facebook</a></p>
           <td><b>Conditionals</b></td>
           <td> perform different computations or actions depending on whether a programmer-specified boolean condition evaluates to true or false. </td>
           <td> Conditionals are needed to have a law within to run. Example: conditionals are needed for everyone to stay on the right tract.  </td>
-          <td> In Python the keywords if , elif , and else are used for conditional statements. </td>
+          <td> </td>
           <td>  </td>
         </tr>
 
@@ -255,13 +255,46 @@ href="https://www.facebook.com/sabrina.salini.5?ref=bookmarks">Facebook</a></p>
         <tr>
           <td><b>Functions</b></td>
           <td> a peformance of a routine or a procedure. </td>
-          <td> people need to function to live from a day to day life. </td>
+          <td>. </td>
           <td> </td>
           <td> </td>
         </tr>
 
       </table>
     </div>
+      
+      <!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -122.174147, lng: 47.731503};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+  </body>
+</html>
+
 
   
   <footer>Copyright &copy; Sabrinasalini.github.io</footer>
